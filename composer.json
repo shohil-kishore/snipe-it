@@ -17,7 +17,7 @@
     "intervention/image": "^2.3",
     "javiereguiluz/easyslugger": "^1.0",
     "laravel/framework": "5.4.35",
-    "laravel/passport": "^3.0",
+    "laravel/passport": "^4.0",
     "laravel/tinker": "^1.0",
     "laravelcollective/html": "^5.3",
     "league/csv": "^8.1",
