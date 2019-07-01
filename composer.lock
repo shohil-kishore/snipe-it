@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b575236d6ef1d5f8799acf86ca03bc4e",
+    "content-hash": "5b487caa44df454084915f1a1f46f05a",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -1988,16 +1988,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.23.0",
+            "version": "1.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4"
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
-                "reference": "fd8c787753b3a2ad11bc60c063cff1358a32a3b4",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
+                "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
                 "shasum": ""
             },
             "require": {
@@ -2062,7 +2062,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19T01:22:40+00:00"
+            "time": "2018-11-05T09:00:11+00:00"
         },
         {
             "name": "mtdowling/cron-expression",
@@ -2823,16 +2823,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
+                "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "shasum": ""
             },
             "require": {
@@ -2866,7 +2866,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "time": "2018-11-20T15:27:04+00:00"
         },
         {
             "name": "psy/psysh",
@@ -3026,27 +3026,26 @@
         },
         {
             "name": "rollbar/rollbar",
-            "version": "v1.6.3",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rollbar/rollbar-php.git",
-                "reference": "149590adc3bd5ed1188c48f8159f257aa1bf2d19"
+                "reference": "8a57ad9574d85bd818eaedfc8049fdcb16795f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/149590adc3bd5ed1188c48f8159f257aa1bf2d19",
-                "reference": "149590adc3bd5ed1188c48f8159f257aa1bf2d19",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php/zipball/8a57ad9574d85bd818eaedfc8049fdcb16795f31",
+                "reference": "8a57ad9574d85bd818eaedfc8049fdcb16795f31",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
-                "monolog/monolog": "^1.23",
-                "psr/log": "^1.0.1"
+                "monolog/monolog": "^1",
+                "psr/log": "^1"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "mockery/mockery": "0.9.*",
-                "monolog/monolog": "^1.23",
                 "packfire/php5.3-compat": "*",
                 "phpmd/phpmd": "@stable",
                 "phpunit/phpunit": "4.8.*",
@@ -3082,20 +3081,20 @@
                 "logging",
                 "monitoring"
             ],
-            "time": "2018-09-06T21:34:17+00:00"
+            "time": "2019-05-06T11:31:11+00:00"
         },
         {
             "name": "rollbar/rollbar-laravel",
-            "version": "v2.4.1",
+            "version": "v2.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rollbar/rollbar-php-laravel.git",
-                "reference": "2f1d086f842a671bf2af387e1b9dabc782025050"
+                "reference": "e581cd9a175d0b3fa0568893026e38c1d94329b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rollbar/rollbar-php-laravel/zipball/2f1d086f842a671bf2af387e1b9dabc782025050",
-                "reference": "2f1d086f842a671bf2af387e1b9dabc782025050",
+                "url": "https://api.github.com/repos/rollbar/rollbar-php-laravel/zipball/e581cd9a175d0b3fa0568893026e38c1d94329b2",
+                "reference": "e581cd9a175d0b3fa0568893026e38c1d94329b2",
                 "shasum": ""
             },
             "require": {
@@ -3150,7 +3149,7 @@
                 "monitoring",
                 "rollbar"
             ],
-            "time": "2018-10-04T22:37:43+00:00"
+            "time": "2019-01-01T22:20:05+00:00"
         },
         {
             "name": "schuppo/password-strength",
@@ -5875,6 +5874,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2017-06-30T09:13:00+00:00"
         },
         {
